@@ -4,8 +4,8 @@ From: nvidia/cuda:7.5-cudnn5-devel-ubuntu14.04
 %post
 
     # Update list of available packages, then upgrade them
-    apt-get update
-    DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
+    #apt-get update
+    #DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
     # Update list of packages and install packages for ease of use.
     apt-get update
     apt-get install -y apt-utils
