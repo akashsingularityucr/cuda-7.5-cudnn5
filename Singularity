@@ -19,6 +19,11 @@ From: nvidia/cuda:7.5-cudnn5-devel-ubuntu14.04
     apt-get install -y libxcb-xfixes0-dev
     apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev
     
+    # Installing pip
+    apt-get install python-pip python-dev build-essential 
+    pip install --upgrade pip 
+    pip install --upgrade virtualenv 
+    
     # OpenCV from pip, including contrib.  This makes the install MUCH faster.
     # See https://pypi.python.org/pypi/opencv-contrib-python for capabilities 
     # and limitations.  
