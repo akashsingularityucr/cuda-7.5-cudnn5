@@ -37,7 +37,8 @@ From: nvidia/cuda:7.5-cudnn5-devel-ubuntu14.04
     pip install --no-cache-dir flask
     pip install --no-cache-dir flask_cors
     pip install --no-cache-dir sklearn
-    pip install --no-cache-dir tqdm
+    # pip install --no-cache-dir tqdm
+    pip install --no-cache-dir torch
     
     git clone https://github.com/MehdiNoroozi/JigsawPuzzleSolver.git
     cd caffe-master-jps++
